@@ -1,10 +1,7 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 2rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,8 +10,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.App-header {  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
